@@ -1,0 +1,28 @@
+# Archivos específicos de Godot
+.godot/
+*.uid
+.import/
+export_presets.cfg
+
+# Binarios exportados (si exportas dentro del repo)
+*.desktop
+*.exe
+*.zip
+*.tar.gz
+*.app
+*.ipa
+*.apk
+*.dmg
+
+# Mono/C# (si usas la versión .NET)
+.mono/
+bin/
+obj/
+msbuild.log
+*.sln
+*.csproj
+
+# Herramientas y OS
+.DS_Store
+Thumbs.db
+*.tmp
