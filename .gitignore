@@ -1,11 +1,14 @@
-# Archivos específicos de Godot
-.godot/
+# --- Ignorar carpetas de compilación y caché de Godot 4.x ---
+# Esto buscará cualquier carpeta .godot en cualquier subdirectorio
+**/.godot/
+**/.import/
+
+# Archivos de firmas y estados locales
 *.uid
-.import/
+*.tmp
 export_presets.cfg
 
-# Binarios exportados (si exportas dentro del repo)
-*.desktop
+# --- Binarios e instalaciones ---
 *.exe
 *.zip
 *.tar.gz
@@ -13,16 +16,10 @@ export_presets.cfg
 *.ipa
 *.apk
 *.dmg
-
-# Mono/C# (si usas la versión .NET)
-.mono/
+*.mono/
 bin/
 obj/
-msbuild.log
-*.sln
-*.csproj
 
-# Herramientas y OS
+# --- Sistema Operativo ---
 .DS_Store
 Thumbs.db
-*.tmp
